@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JMD Oil&Chemicals</title>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head>
+<body>
+	<div>
+		<header class="titleheader">
+			<div class="logo">
+				<div >
+					<h2>JMD OIL</h2>
+					<h2 class="red">&</h2>
+					<h2 >CHEMICALS</h2>
+				</div>
+				<div>
+					<h4>Trading Services</h4>
+				</div>
+			</div>
+
+			<div class="scnd">
+				<h6>HAVE AN ACCOUNT?</h6>
+				<h6><a href="#done">SIGNIN</a></h6>
+				<h6>OR</h6>
+				<h6><a href="#done">SIGNOUT</a></h6>
+			</div>
+		</header>
+
+		<nav>
+			<ul>
+ 				 <li><a class="active" href="/" style="color: white;"><b>Home</b></a></li>
+				 <li><a href="#news" style="color: white;"><b>Services</b></a></li>
+ 				 <li><a href="#contact" style="color: white;"><b>Contact</b></a></li>
+ 				 <li><a href="/about" style="color: white;"><b>About</b></a></li>
+			</ul>
+		</nav>
+		<%=image_tag("logo/i2.jpg",width:"120",height:"200")%>
+<div class="q">
+<%= render 'form', query: @query %>
+
+<%= link_to 'Back', home_path ,{:style=>'color:#fff;'} %>
+</div>
+<footer class="pagefooter">
+			<section>
+				<h3 class="head">Online Support</h3>
+				<h2 class="no">+ 91 9212021933</h2>
+				<p>Ask your questions at email: jmdoilsandchemicals@gmail.com</p>
+			</section>
+			<section>
+				<h3 class="head">Get in touch</h3>
+				<h2 class="no">+ 91 9212021933</h2>
+				<p>Ask your questions at email: jmdoilsandchemicals@gmail.com</p>
+			</section>
+		</footer>

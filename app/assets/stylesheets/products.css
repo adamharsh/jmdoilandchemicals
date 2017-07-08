@@ -1,0 +1,204 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box; 
+}
+
+body{
+	margin:0px;
+}
+
+
+div header.titleheader{
+	width: 100%;
+	height: 100px;
+	z-index: 999;
+	background-color: rgb(22,24,20);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+div header.titleheader div.logo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 100px; 
+
+}
+div header.titleheader div.logo div{
+	/*margin-left: 100px;*/
+	
+	display: flex;
+	
+	color: white;
+
+}
+div header.titleheader div.logo h2.red{
+	color: red;
+}
+div header.titleheader div.logo div h4{
+	color: rgb(76,76,72);
+}
+div header.titleheader  div.scnd{
+	width: 30%;
+	display: flex;
+	align-items: center;
+}
+div header.titleheader div.scnd h6{
+	color: white;
+}
+div header.titleheader div.scnd h6 a{
+	color: red;
+	text-decoration: none;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+div header.titleheader div.scnd h6 a:hover{
+	color: white;
+}
+div nav{
+	margin-left: 100px;
+	margin-right: 80px;
+	position: absolute;
+	
+
+}
+div nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 72px;
+    background-color: red;
+}
+
+div nav ul li {
+    float: left;
+}
+
+div nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 107px 31px;
+    text-decoration: none;
+    border-left: 2px solid black;
+}
+
+div nav ul li a:hover:not(.active) {
+    background-color: black;
+}
+
+div nav ul li a.active {
+    background-color: black;
+}
+div img{
+	 width: 1300px;
+	  height: 100%;
+	  margin-bottom: 0px;
+}
+
+div footer.pagefooter{
+	margin-top: 0px;
+	width: 100%;
+	height: 200px;
+	background-color: rgb(40,34,37);
+	display: flex;
+	justify-content: space-around;
+}
+div footer.pagefooter section{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 36px; 
+}
+
+div footer.pagefooter section h3.head{
+	color: white;
+	padding-bottom: 16px;
+	border-bottom: 2px solid white;
+	
+}
+div footer.pagefooter section h2.no{
+	color: white;
+	margin-top: 14px;
+	padding-bottom: 5px;
+}
+div footer.pagefooter section p{
+	color: white;
+	font-size: 12px;
+}
+
+
+div div.query{
+	position: fixed;
+	bottom:4px;
+	right: 4px;
+	background-color: grey;
+	padding: 8px;
+}
+div div.query a{
+	text-decoration: none;
+	color: black;
+}
+div div.query a:hover{
+	background-color: black;
+	padding: 6px;
+	color: white;
+}
+div div.aboutt{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-around;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right:100px;
+	height: 400px;	
+}
+div div.aboutt div.other{
+	margin-top: 20px;
+	display:flex;
+	justify-content:space-between;
+
+}
+div div.aboutt div.other p{
+	width: 80%;
+	margin-top: 8px;
+	margin-right: 10px;
+	margin-left: 13px;
+}
+div div.aboutt div.other img{
+	width: 30%;
+}
+div div#services{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+	height: 500px;
+}
+div div#services div.p1 {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+div div#services div.p1 a{
+	width: 25%;
+	text-decoration: none;
+	color: black;
+}
+
+div div#services div.p1 div.product{
+	width: 100%;
+	height:100px;
+	padding-top: 10px;
+	background-color:grey;
+}
+div div#services div.p1 div.product h2{
+	
+	margin-left: 10px;
+}
