@@ -41,7 +41,7 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 group :production do
-gem 'pg'
+gem 'pg', '~>0.21.0'
 end
 
 group :development do
